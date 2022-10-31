@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-alias",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "type": "module",
   "author": "Elone Hoo <huchengyea@163.com>",
