@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-alias",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "type": "module",
   "author": "Elone Hoo <huchengyea@163.com>",
@@ -11,15 +11,15 @@
   "homepage": "https://github.com/elonehoo/vite-plugin-alias#readme",
   "bugs": "https://github.com/elonehoo/vite-plugin-alias/issues",
   "main": "./dist/index.cjs",
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
-	"exports": {
-		".": {
-			"require": "./dist/index.js",
-			"import": "./dist/index.cjs",
-			"types": "./dist/index.d.ts"
-		}
-	},
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
     "dist"
   ],
