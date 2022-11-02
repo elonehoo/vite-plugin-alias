@@ -10,20 +10,21 @@
   },
   "homepage": "https://github.com/elonehoo/vite-plugin-alias#readme",
   "bugs": "https://github.com/elonehoo/vite-plugin-alias/issues",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
-    }
-  },
+  "main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"require": "./dist/index.js",
+			"import": "./dist/index.cjs",
+			"types": "./dist/index.d.ts"
+		}
+	},
   "files": [
-    "dist",
-    "*.d.ts"
+    "dist"
   ],
   "scripts": {
-    "build": "rimraf dist && tsup",
+    "build": "rimraf dist && tsup src/index.ts --dts --format cjs,esm --clean",
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
     "test": "vitest",
     "coverage": "vitest run --coverage",
