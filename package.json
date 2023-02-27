@@ -36,21 +36,21 @@
     "@elonehoo/eslint-config": "2.0.0",
     "@elonehoo/rimraf": "^0.0.1",
     "@elonehoo/vite-plugin-type-ts": "^0.0.1",
-    "@types/node": "18.13.0",
-    "@vitest/coverage-c8": "^0.28.4",
+    "@types/node": "18.14.2",
+    "@vitest/coverage-c8": "^0.29.1",
     "bumpp": "8.2.1",
-    "c8": "^7.12.0",
-    "eslint": "8.34.0",
-    "pnpm": "7.27.0",
-    "tsup": "^6.6.2",
+    "c8": "^7.13.0",
+    "eslint": "8.35.0",
+    "pnpm": "7.28.0",
+    "tsup": "^6.6.3",
     "typescript": "4.9.5",
-    "vitest": "0.28.4"
+    "vitest": "0.29.1"
   },
   "dependencies": {
     "chokidar": "^3.5.3",
     "comment-json": "^4.2.3",
     "consola": "^2.15.3",
     "fast-glob": "^3.2.12",
-    "vite": "4.1.1"
+    "vite": "4.1.4"
   }
 }
