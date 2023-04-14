@@ -1,37 +1,13 @@
 /// <reference types="vitest" />
 
-import path from 'path'
+import path from 'node:path'
 import { defineConfig } from 'vite'
-import types from '@elonehoo/vite-plugin-type-ts'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   resolve: {
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`,
-    },
-  },
-  plugins: [
-    types({
-      tsConfigFilePath: './tsconfig.json',
-      cleanVueFileName: true,
-      insertTypesEntry: true,
-    }),
-  ],
-  build: {
-    outDir: 'dist',
-    lib: {
-      entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'index',
-      fileName: 'index',
-    },
-    rollupOptions: {
-      external: ['vue'],
-      output: {
-        globals: {
-          vue: 'Vue',
-        },
-      },
     },
   },
 })

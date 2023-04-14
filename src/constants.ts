@@ -1,28 +1,28 @@
 import type { Options } from './type'
 
 export const config: Required<Options> = {
-	dir: 'src',
+  dir: 'src',
 
-	prefix: '~',
-	deep: true,
-	depth: 1,
+  prefix: '~',
+  deep: true,
+  depth: 1,
 
-	createGlobalAlias: true,
-	createLog: false,
-	logPath: 'src/logs',
-	adjustDuplicates: false,
+  createGlobalAlias: true,
+  createLog: false,
+  logPath: 'src/logs',
+  adjustDuplicates: false,
 
-	useAbsolute: false,
-	useConfig: false,
-	useIndexes: false,
-	useTypescript: false,
+  useAbsolute: false,
+  useConfig: false,
+  useIndexes: false,
+  useTypescript: false,
 
-	root: process.cwd(),
+  root: process.cwd(),
 }
 
 export const IDEConfig = {
-	compilerOptions: {
-		baseUrl: '.',
-		paths: {},
-	}
+  compilerOptions: {
+    baseUrl: '.',
+    paths: {},
+  },
 }

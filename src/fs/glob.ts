@@ -1,6 +1,6 @@
-import fg from 'fast-glob';
-import type { Generator } from '../generator';
-import { logger } from '../utils';
+import fg from 'fast-glob'
+import type { Generator } from '../generator'
+import { logger } from '../utils'
 
 /**
  * Return all folders from the project directory
@@ -8,19 +8,18 @@ import { logger } from '../utils';
  */
 
 export async function getDirectories(gen: Generator) {
-	const { dir, root, deep, depth } = gen.options;
+  const { dir, root, deep, depth } = gen.options
 
-	const directories = await fg.sync(deep ? `${dir}/**/*` : `${dir}/*`, {
-		ignore: ['node_modules'],
-		onlyDirectories: true,
-		cwd: root,
-		deep: depth,
-		absolute: true,
-	});
+  const directories = await fg.sync(deep ? `${dir}/**/*` : `${dir}/*`, {
+    ignore: ['node_modules'],
+    onlyDirectories: true,
+    cwd: root,
+    deep: depth,
+    absolute: true,
+  })
 
-	if (!directories.length) {
-		logger.error(new Error('No Directories could be found!'));
-	}
+  if (!directories.length)
+    logger.error(new Error('No Directories could be found!'))
 
-	gen.addAlias(directories);
+  gen.addAlias(directories)
 }

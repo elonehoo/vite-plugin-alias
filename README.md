@@ -24,8 +24,8 @@ Add it to `vite.config.js`
 import Alias from 'vite-plugin-alias'
 
 export default {
-	plugins: [
-		Alias()
-	]
-};
+  plugins: [
+    Alias()
+  ]
+}
 ```
