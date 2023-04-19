@@ -7,8 +7,8 @@ export default defineConfig({
   plugins: [
     vue(),
     Alias({
-      useConfig:true,
+      useConfig: true,
       useTypescript: true,
-    })
+    }),
   ],
 })
