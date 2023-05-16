@@ -43,7 +43,7 @@
     "consola": "^3.1.0",
     "fast-glob": "^3.2.12",
     "unbuild": "^1.2.1",
-    "vite": "4.3.6"
+    "vite": "4.3.7"
   },
   "devDependencies": {
     "@elonehoo/rimraf": "^0.0.1",
