@@ -37,23 +37,23 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^0.39.1",
+    "@antfu/eslint-config": "^0.39.3",
     "chokidar": "^3.5.3",
     "comment-json": "^4.2.3",
     "consola": "^3.1.0",
     "fast-glob": "^3.2.12",
     "unbuild": "^1.2.1",
-    "vite": "4.3.8"
+    "vite": "4.3.9"
   },
   "devDependencies": {
     "@elonehoo/rimraf": "^0.0.1",
     "@types/node": "20.1.5",
     "@vitest/coverage-c8": "^0.31.1",
     "bumpp": "9.1.0",
-    "c8": "^7.13.0",
+    "c8": "^7.14.0",
     "eslint": "8.41.0",
     "local-pkg": "^0.4.3",
-    "pnpm": "8.5.1",
+    "pnpm": "8.6.0",
     "typescript": "5.0.4",
     "vitest": "0.31.1"
   }
