@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -52,8 +52,8 @@ importers:
         specifier: ^0.4.3
         version: 0.4.3
       pnpm:
-        specifier: 8.6.3
-        version: 8.6.3
+        specifier: 8.6.4
+        version: 8.6.4
       typescript:
         specifier: 5.1.3
         version: 5.1.3
@@ -102,8 +102,8 @@ importers:
         specifier: ^4.3.9
         version: 4.3.9(@types/node@20.3.1)
       vite-plugin-inspect:
-        specifier: ^0.7.28
-        version: 0.7.28(rollup@3.25.1)(vite@4.3.9)
+        specifier: ^0.7.29
+        version: 0.7.29(rollup@3.25.1)(vite@4.3.9)
       vue-tsc:
         specifier: ^1.8.1
         version: 1.8.1(typescript@5.1.3)
@@ -3489,8 +3489,8 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /pnpm@8.6.3:
-    resolution: {integrity: sha512-0Y4neugHIJEEa8y8oJMfd9wwgHkc1hIq6JC/UEEl2K92s3+zPaKH26n7u22m67E+MU6fpKRkx+/+PYWZzr5yQw==}
+  /pnpm@8.6.4:
+    resolution: {integrity: sha512-SWjXGNob59u6XvqrZUygAIaxkXWgzd1wEn/iW8p75/j3QQ0ydL8od1I+/hqFaP4vnj2SoBqAXf3PcwlF7QLWIQ==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
@@ -4137,8 +4137,8 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-inspect@0.7.28(rollup@3.25.1)(vite@4.3.9):
-    resolution: {integrity: sha512-XRdQGdf+PU6eT0EoL8beUyFQfcCrHr06OyRM71IT8t7rEC9JywdsscehGHEAyFZryfaVBWAI280N63BI2N+1BA==}
+  /vite-plugin-inspect@0.7.29(rollup@3.25.1)(vite@4.3.9):
+    resolution: {integrity: sha512-vPbwChmLaHXu2ZXAtRlqXS7BTJoTNIhEjwLv55XGoPOtDOCMkh4X+ziy3/Y6ZhFRDvg0AggHLumn8YqEaIlMJg==}
     engines: {node: '>=14'}
     peerDependencies:
       vite: ^3.1.0 || ^4.0.0
