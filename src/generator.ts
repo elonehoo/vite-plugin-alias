@@ -89,11 +89,11 @@ export class Generator {
   }
 
   /**
-     * Check for duplicates before adding them as alias
-     * @param initialPath
-     * @param folders
-     * @param uniqueFolders
-     */
+   * Check for duplicates before adding them as alias
+   * @param initialPath
+   * @param folders
+   * @param uniqueFolders
+   */
 
   checkForDuplicates(initialPath: string, folders: string[], uniqueFolders: string[]) {
     if (folders.length !== uniqueFolders.length) {
