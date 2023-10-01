@@ -1,3 +1,4 @@
+import process from 'node:process'
 import type { Options } from './type'
 
 export const config: Required<Options> = {
