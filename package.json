@@ -47,14 +47,14 @@
   "devDependencies": {
     "@antfu/eslint-config": "0.43.1",
     "@elonehoo/rimraf": "^0.0.1",
-    "@types/node": "20.8.7",
+    "@types/node": "20.8.9",
     "@vitest/coverage-c8": "^0.33.0",
     "@vitest/coverage-v8": "^0.34.6",
     "bumpp": "9.2.0",
     "c8": "^8.0.1",
     "eslint": "8.52.0",
     "local-pkg": "^0.5.0",
-    "pnpm": "8.9.2",
+    "pnpm": "8.10.0",
     "typescript": "5.2.2",
     "vitest": "0.34.6"
   }
