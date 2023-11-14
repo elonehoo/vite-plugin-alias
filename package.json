@@ -21,8 +21,8 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
-    "dist",
-    "*.d.ts"
+    "*.d.ts",
+    "dist"
   ],
   "scripts": {
     "play:module": "pnpm -C playground/module run dev",
@@ -45,7 +45,7 @@
     "vite": "4.5.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.43.1",
+    "@antfu/eslint-config": "1.1.1",
     "@elonehoo/rimraf": "^0.0.1",
     "@types/node": "20.9.0",
     "@vitest/coverage-c8": "^0.33.0",
@@ -54,7 +54,7 @@
     "c8": "^8.0.1",
     "eslint": "8.53.0",
     "local-pkg": "^0.5.0",
-    "pnpm": "8.10.3",
+    "pnpm": "8.10.5",
     "typescript": "5.2.2",
     "vitest": "0.34.6"
   }
