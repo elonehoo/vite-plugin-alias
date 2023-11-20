@@ -45,14 +45,14 @@
     "vite": "4.5.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "1.1.1",
+    "@antfu/eslint-config": "1.2.1",
     "@elonehoo/rimraf": "^0.0.1",
-    "@types/node": "20.9.0",
+    "@types/node": "20.9.2",
     "@vitest/coverage-c8": "^0.33.0",
     "@vitest/coverage-v8": "^0.34.6",
     "bumpp": "9.2.0",
     "c8": "^8.0.1",
-    "eslint": "8.53.0",
+    "eslint": "8.54.0",
     "local-pkg": "^0.5.0",
     "pnpm": "8.10.5",
     "typescript": "5.2.2",
