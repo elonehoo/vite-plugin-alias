@@ -45,17 +45,17 @@
     "vite": "5.0.10"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.4.6",
+    "@antfu/eslint-config": "2.6.1",
     "@elonehoo/rimraf": "^0.0.1",
-    "@types/node": "20.10.5",
+    "@types/node": "20.10.6",
     "@vitest/coverage-c8": "^0.33.0",
-    "@vitest/coverage-v8": "^1.1.0",
+    "@vitest/coverage-v8": "^1.1.1",
     "bumpp": "9.2.1",
     "c8": "^8.0.1",
     "eslint": "8.56.0",
     "local-pkg": "^0.5.0",
-    "pnpm": "8.12.1",
+    "pnpm": "8.13.1",
     "typescript": "5.3.3",
-    "vitest": "1.1.0"
+    "vitest": "1.1.1"
   }
 }
