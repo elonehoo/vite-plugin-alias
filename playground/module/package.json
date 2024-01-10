@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "vite-plugin-alias": "workspace:*",
-    "vue": "^3.4.5"
+    "vue": "^3.4.7"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.6.2",
+    "@vitejs/plugin-vue": "^5.0.3",
     "typescript": "^5.3.3",
     "vite": "^5.0.11",
     "vite-plugin-inspect": "^0.8.1",
