@@ -45,7 +45,7 @@
     "vite": "5.4.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.27.3",
+    "@antfu/eslint-config": "3.0.0",
     "@elonehoo/rimraf": "^0.0.1",
     "@types/node": "22.5.2",
     "@vitest/coverage-v8": "^2.0.5",
