@@ -49,7 +49,7 @@
     "@elonehoo/rimraf": "^0.0.1",
     "@types/node": "22.10.1",
     "@vitest/coverage-v8": "^2.1.8",
-    "bumpp": "9.8.1",
+    "bumpp": "9.9.0",
     "c8": "^10.1.2",
     "eslint": "9.16.0",
     "local-pkg": "^0.5.1",
