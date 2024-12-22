@@ -41,7 +41,7 @@
     "comment-json": "^4.2.5",
     "consola": "^3.2.3",
     "fast-glob": "^3.3.2",
-    "unbuild": "^2.0.0",
+    "unbuild": "^3.0.1",
     "vite": "6.0.3"
   },
   "devDependencies": {
