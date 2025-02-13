@@ -1,8 +1,8 @@
+import type { Process } from './type'
 import fs from 'node:fs/promises'
+import { parse, stringify } from 'comment-json'
 import consola from 'consola'
 import { normalizePath } from 'vite'
-import { parse, stringify } from 'comment-json'
-import type { Process } from './type'
 
 /**
  * Split String on Seperator into Array
@@ -100,7 +100,7 @@ export async function readJSON(path: string) {
  */
 
 export async function writeJSON(path: string, data: any, process: Process) {
-  const name = path.replace(/^.*[\\\/]/, '')
+  const name = path.replace(/^.*[\\/]/, '')
   const state = ((process === 'add') || (process === 'default')) ? 'created' : 'updated'
 
   try {

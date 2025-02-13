@@ -1,10 +1,10 @@
-import { resolve } from 'node:path'
-import { normalizePath } from 'vite'
-import chokidar from 'chokidar'
 import type { Alias, Options, Path } from './type'
-import { logger, split, toArray, toCamelCase, toRelative } from './utils'
+import { resolve } from 'node:path'
+import chokidar from 'chokidar'
+import { normalizePath } from 'vite'
 import { config } from './constants'
 import { getDirectories, writeConfig, writeLog } from './fs'
+import { logger, split, toArray, toCamelCase, toRelative } from './utils'
 
 export class Generator {
   readonly options: Options

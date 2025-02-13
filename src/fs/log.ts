@@ -1,9 +1,9 @@
-import { existsSync } from 'node:fs'
-import { mkdir } from 'node:fs/promises'
-import { normalizePath } from 'vite'
-
 import type { Generator } from '../generator'
 import type { Process } from '../type'
+import { existsSync } from 'node:fs'
+
+import { mkdir } from 'node:fs/promises'
+import { normalizePath } from 'vite'
 import { abort, writeJSON } from '../utils'
 
 /**

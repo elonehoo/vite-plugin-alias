@@ -1,5 +1,5 @@
-import process from 'node:process'
 import type { Options } from './type'
+import process from 'node:process'
 
 export const config: Required<Options> = {
   dir: 'src',

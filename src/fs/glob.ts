@@ -1,5 +1,5 @@
-import fg from 'fast-glob'
 import type { Generator } from '../generator'
+import fg from 'fast-glob'
 import { logger } from '../utils'
 
 /**

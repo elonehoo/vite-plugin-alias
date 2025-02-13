@@ -1,8 +1,8 @@
-import { normalizePath } from 'vite'
-import { abort, readJSON, writeJSON } from '../utils'
-import { IDEConfig } from '../constants'
 import type { Generator } from '../generator'
 import type { Process } from '../type'
+import { normalizePath } from 'vite'
+import { IDEConfig } from '../constants'
+import { abort, readJSON, writeJSON } from '../utils'
 
 /**
  * Creates a JS or TS Configfile
