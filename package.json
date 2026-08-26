@@ -48,7 +48,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "4.11.0",
     "@elonehoo/rimraf": "^0.0.1",
-    "@types/node": "22.13.13",
+    "@types/node": "24.13.3",
     "@vitest/coverage-v8": "^3.0.9",
     "bumpp": "10.1.0",
     "c8": "^10.1.3",
