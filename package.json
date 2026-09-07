@@ -38,7 +38,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "chokidar": "^4.0.3",
+    "chokidar": "^5.0.0",
     "comment-json": "^4.2.5",
     "consola": "^3.4.2",
     "fast-glob": "^3.3.3",
