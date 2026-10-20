@@ -1,7 +1,7 @@
 import type { Process } from './type'
 import fs from 'node:fs/promises'
 import { parse, stringify } from 'comment-json'
-import consola from 'consola'
+import { consola } from 'consola'
 import { normalizePath } from 'vite'
 
 /**
