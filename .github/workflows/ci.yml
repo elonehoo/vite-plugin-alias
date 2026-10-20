@@ -59,3 +59,6 @@ jobs:
 
       - name: Test
         run: pnpm run test --run
+
+      - name: Check packed consumers
+        run: pnpm run test:package
