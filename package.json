@@ -13,9 +13,14 @@
   "bugs": "https://github.com/elonehoo/vite-plugin-alias/issues",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./index.d.cts",
+        "default": "./dist/index.cjs"
+      }
     },
     "./*": "./*"
   },
@@ -24,7 +29,8 @@
   "types": "dist/index.d.ts",
   "files": [
     "*.d.ts",
-    "dist"
+    "dist",
+    "index.d.cts"
   ],
   "scripts": {
     "play:module": "pnpm -C playground/module run dev",
@@ -33,6 +39,7 @@
     "prepublishOnly": "npm run build",
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
     "test": "vitest",
+    "test:package": "node scripts/check-package.mjs",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

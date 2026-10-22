@@ -32,6 +32,16 @@ export default {
 }
 ```
 
+## TypeScript consumers
+
+Modern ESM consumers use the generated ESM declaration. CommonJS consumers using
+`NodeNext` resolution need TypeScript 5.3 or newer for the declaration bridge to
+Vite's ESM types. This requirement is specific to the CommonJS type bridge, not
+the ESM declaration.
+
+The original top-level declaration is retained for legacy resolution. Vite's own
+types require a modern resolver for strict declaration checking.
+
 ## Credits
 
 Thanks to:
