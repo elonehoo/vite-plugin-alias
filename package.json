@@ -2,7 +2,7 @@
   "name": "vite-plugin-alias",
   "type": "module",
   "version": "0.1.1",
-  "packageManager": "pnpm@10.34.7",
+  "packageManager": "pnpm@10.34.9",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "homepage": "https://github.com/elonehoo/vite-plugin-alias#readme",
@@ -44,7 +44,7 @@
     "consola": "^3.4.2",
     "fast-glob": "^3.3.3",
     "unbuild": "^3.6.1",
-    "vite": "6.4.4"
+    "vite": "6.4.5"
   },
   "devDependencies": {
     "@antfu/eslint-config": "9.5.1",
@@ -55,7 +55,7 @@
     "c8": "^12.0.0",
     "eslint": "9.39.5",
     "local-pkg": "^1.2.1",
-    "pnpm": "10.34.7",
+    "pnpm": "10.34.9",
     "typescript": "5.9.3",
     "vitest": "5.0.5"
   }
