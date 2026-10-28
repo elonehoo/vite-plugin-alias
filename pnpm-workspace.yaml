@@ -4,3 +4,9 @@ shellEmulator: true
 
 packages:
   - playground/*
+
+# The platform-specific optional packages provide the binaries. Keep their
+# download/optimization scripts disabled; new versions still require review.
+strictDepBuilds: true
+allowBuilds:
+  esbuild@0.24.2 || 0.25.0 || 0.25.12: false
