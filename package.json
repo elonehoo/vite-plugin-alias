@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "chokidar": "^6.0.0",
-    "comment-json": "^4.6.2",
+    "comment-json": "^5.0.0",
     "consola": "^3.4.2",
     "fast-glob": "^3.3.3",
     "unbuild": "^3.6.1",
